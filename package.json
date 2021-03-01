@@ -1,0 +1,28 @@
+{
+  "name": "frontend-project-lvl1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "project-lvl1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durgedancing/frontend-project-lvl1.git"
+  },
+  "author": "durgedancing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durgedancing/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/durgedancing/frontend-project-lvl1#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}

@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/durgedancing/frontend-project-lvl1#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
@@ -27,5 +28,5 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js"
-  } 
+  }
 }

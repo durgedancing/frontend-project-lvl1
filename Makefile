@@ -26,6 +26,6 @@ publish:
 	npm publish --dry-run
 
 make lint:
-	npx eslint .
+	npx eslint --fix
 
 .PHONY: test

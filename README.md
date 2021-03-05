@@ -1,2 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/durgedancing/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/durgedancing/frontend-project-lvl1/actions)
+[![Actions Status](https://github.com/durgedancing/frontend-project-lvl1/workflows/hexlet-check/badge.svg)]
+https://github.com/durgedancing/frontend-project-lvl1/actions
+https://github.com/durgedancing/frontend-project-lvl1/actions/workflows/learn-github-actions.yml/badge.svg
+

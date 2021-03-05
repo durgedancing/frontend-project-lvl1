@@ -22,7 +22,10 @@ publish:
 brain-games:
 	node bin/brain-games.js
 
-publish
+publish:
 	npm publish --dry-run
+
+make lint:
+	npx eslint .
 
 .PHONY: test

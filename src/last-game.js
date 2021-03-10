@@ -5,7 +5,7 @@ function getRandomInt(max) {
   }
 
 export default () => {
-    const name = readlineSync.question('Welcome to the Brain Games!\nMay I have your name?');
+    const name = readlineSync.question('Welcome to the Brain Games!\nMay I have your name? ');
     console.log(`Hello, ${name}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
 
     for (let i = 1; i < 4;) {

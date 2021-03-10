@@ -16,9 +16,6 @@ test-coverage:
 lint:
 	npx eslint .
 
-publish:
-	npm publish
-
 brain-games:
 	node bin/brain-games.js
 

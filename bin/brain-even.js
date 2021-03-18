@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import game from '../src/last-game.js';
+import { greeting } from '../src/index.js';
+import { even } from '../games/brain-even-game.js';
 
-game();
+greeting();
+even();

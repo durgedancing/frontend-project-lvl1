@@ -14,7 +14,7 @@ test-coverage:
 	npm test -- --coverage --coverageProvider=v8
 
 lint:
-	npx eslint .
+	npx eslint --fix
 
 brain-games:
 	node bin/brain-games.js
@@ -22,10 +22,10 @@ brain-games:
 brain-even:
 	node bin/brain-even.js
 
+brain-calc:
+	node bin/brain-calc.js
+
 publish:
 	npm publish --dry-run
-
-make lint:
-	npx eslint --fix
 
 .PHONY: test

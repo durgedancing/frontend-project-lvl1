@@ -4,5 +4,5 @@
 ### Сcылка на демонстрацию brain-even:
 https://asciinema.org/connect/bf32c535-96e2-4fee-b084-fc9e3d5bab77
 
-### Ссылнка на демонстрацию brain-calc:
+### Ссылка на демонстрацию brain-calc:
 https://asciinema.org/connect/bf32c535-96e2-4fee-b084-fc9e3d5bab77

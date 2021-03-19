@@ -6,3 +6,6 @@ https://asciinema.org/connect/bf32c535-96e2-4fee-b084-fc9e3d5bab77
 
 ### Ссылка на демонстрацию brain-calc:
 https://asciinema.org/connect/bf32c535-96e2-4fee-b084-fc9e3d5bab77
+
+### Ссылка на демонстрацию brain-gcd:
+https://asciinema.org/a/xTH4a1cTkSMTZR3q1Niapn0Du

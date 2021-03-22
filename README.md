@@ -12,3 +12,6 @@ https://asciinema.org/a/xTH4a1cTkSMTZR3q1Niapn0Du
 
 ### Ссылка на демонстрацию brain-progression:
 https://asciinema.org/a/Jtyv1EyY2lBnrCMExseBOwcnm
+
+### Ссылка на демонстрацию brain-prime:
+https://asciinema.org/a/2MbigSkAWK0vXJ4R50kwqDVat

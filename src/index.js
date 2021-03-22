@@ -18,12 +18,11 @@ export const getRandomInt = (max) => {
     return Math.floor(Math.random() * Math.floor(max));
 };
 
-const array = ['+', '-', '*'];
-
-export const getSign = () => {
-    let n = getRandomInt(2);
-    return array[n];
-};
+export const getRandomIntInclusive = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
+}
 
 export const game = (answer, rightAnswer, i) => {
     if (answer === rightAnswer && i !== 2) {

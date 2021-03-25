@@ -7,7 +7,7 @@ export const greeting = () => {
 };
 
 export const congratulation = () => {
-    console.log(`Congatulations, ${name}!`);
+    console.log(`Congratulations, ${name}!`);
 };
 
 export const gameOver = (answer, rightAnswer) => {

@@ -17,6 +17,15 @@ const generate = () => {
     return array;
 }
 
+const arrayToString = (array) => {
+    let newString = array.toString();
+    while (newString.includes(',')) {
+      newString = newString.replace(',', ' ');
+    }
+  
+    return newString;
+  };
+
 export const progression = () => {
     console.log('What number is missing in the progression?');
     
@@ -27,7 +36,7 @@ export const progression = () => {
         let hiding = getRandomInt(array.length);
         let rightAnswer = array[hiding];
         array[hiding] = '..';
-        let question = `${array}`;
+        let question = `${arrayToString(array)}`;
         let answer = Number(readlineSync.question(`Question: ${question}\nYour answer: `));
 
         if (answer === rightAnswer && i !== 2) {

@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { gameOver, congratulation, getRandomInt } from '../src/index.js';
+import { gameOver, congratulation, getRandomInt } from '../src/index';
 
 const findMinValue = (n1, n2) => (n1 - n2 >= 0 ? n2 : n1);
 

@@ -27,7 +27,7 @@ const arrayToString = (array) => {
   return newString;
 };
 
-export const progression = () => {
+export default () => {
   console.log('What number is missing in the progression?');
 
   for (let i = 0; i < 3;) {

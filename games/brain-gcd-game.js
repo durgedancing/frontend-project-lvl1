@@ -23,7 +23,7 @@ const getGcd = (n1, n2) => {
   return getGcd(newN1, newN2);
 };
 
-export const gcd = () => {
+export default () => {
   console.log('Find the greatest common divisor of given numbers.');
 
   for (let i = 0; i < 3;) {

@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { congratulation, gameOver, getRandomInt } from '../src/index.js';
 
-export const even = () => {
+export default () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   for (let i = 0; i < 3;) {

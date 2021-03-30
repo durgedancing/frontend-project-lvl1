@@ -14,7 +14,7 @@ test-coverage:
 	npm test -- --coverage --coverageProvider=v8
 
 lint:
-	npx eslint --fix
+	npx eslint . --fix
 
 brain-games:
 	node bin/brain-games.js

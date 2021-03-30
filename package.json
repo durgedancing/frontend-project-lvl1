@@ -18,15 +18,15 @@
   },
   "homepage": "https://github.com/durgedancing/frontend-project-lvl1#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
     "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
     "jest": "^26.6.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   },
   "bin": {
     "brain-games": "bin/brain-games.js",

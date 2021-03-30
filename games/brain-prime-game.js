@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { gameOver, congratulation, getRandomInt } from '../src/index';
+import { gameOver, congratulation, getRandomInt } from '../src';
 
 const isPrime = (num) => {
   if (num === 0 || num === 1) {

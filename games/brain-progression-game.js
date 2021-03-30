@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import {
   gameOver, congratulation, getRandomInt, getRandomIntInclusive,
-} from '../src/index';
+} from '../src';
 
 const generate = () => {
   const n = getRandomInt(10);

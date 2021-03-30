@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { congratulation, gameOver, getRandomInt } from '../src/index';
+import { congratulation, gameOver, getRandomInt } from '../src';
 
 export default () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
